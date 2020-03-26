@@ -1,0 +1,187 @@
+ @import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+
+ * {
+  box-sizing: border-box;
+ }
+
+ @media(max-width: 800px) {
+   .navbar-responive {
+     display: none;
+   }
+   .dropdown-toggle {
+     display: initial;
+   }
+   .mobile-links {
+    color: white;
+    display: initial;
+    height: 150px;
+    width: 150px;
+    background-color: #fed136;
+    position: fixed;
+    top: 200px;
+    right: 0px;
+  }
+ }
+
+ .App {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: .5rem 1rem;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.navbar-brand {
+  color: #fed136;
+  font-family: "Kaushan Script";
+  display: inline-block;
+  padding-top: .3125rem;
+  margin-right: 1rem;
+  line-height: inherit;
+  white-space: nowrap;
+  font-size: 1.75rem;
+}
+
+a:hover {
+  color: #fed136;
+}
+
+.any-link {
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between!important;
+  width: 100%;
+  max-width: 1140px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar-responive {
+  display: flex;
+}
+
+.navbar-nav {
+  display: flex;
+  list-style: none;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar-expanded {
+  display: flex;
+  flex-basis: auto;
+}
+
+ul {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.nav-link {
+  font-family: Montserrat;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #fff;
+  padding: 1.1em 1em;
+}
+
+.navbar-collapse {
+  display: flex;
+  flex-basis: auto;
+}
+
+.masterhead {
+  color: #fff;
+  text-align: center;
+  background-image: url('https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
+header {
+  display: block;
+}
+
+div {
+  display: block;
+}
+
+.intro-text {
+  padding-top: 300px;
+  padding-bottom: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.intro-container {
+  display: flex;
+  align-items: center!important;
+}
+
+.intro-lead-in {
+  font-size: 40px;
+  font-style: italic;
+  line-height: 40px;
+  margin-bottom: 25px;
+  font-family: "Droid Serif";
+}
+
+.intro-text {
+  max-width: 850px;
+  font-size: 75px;
+  font-weight: 700;
+  line-height: 75px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.primary-btn {
+  background-color: #fed136;
+  border-color: #fed136;
+}
+
+.xl-btn {
+  font-size: 18px;
+  border-radius: 4px;
+  padding: 0px 20px;
+  align-self: center;
+  margin-top: 50px;
+}
+
+.xl-btn:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
